@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
   <head>
-    <script src="../assets/js/color-modes.js"></script>
+    <script src="assets/color-modes.js"></script>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,13 +24,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <style>
-      .wrap {
-        width: 358px;
-        height: 250px;
-        overflow: hidden;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Activity05 Catalog of Flowers</title>
 
@@ -220,68 +214,6 @@
       </ul>
     </div>
 
-    <!-- <header data-bs-theme="dark">
-      <div class="collapse text-bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4>About</h4>
-              <p class="text-body-secondary">
-                Add some information about the album below, the author, or any
-                other background context. Make it a few sentences long so folks
-                can pick up some informative tidbits. Then, link them off to
-                some social networking sites or contact information.
-              </p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4>Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
-                <li><a href="#" class="text-white">Email me</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              aria-hidden="true"
-              class="me-2"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
-              />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-            <strong>Album</strong>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarHeader"
-            aria-controls="navbarHeader"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header> -->
-
     <header data-bs-theme="dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -300,7 +232,9 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="catalog.html">Catalog</a>
@@ -314,12 +248,11 @@
       </nav>
     </header>
 
-
     <main>
       <section>
-        <h1 style="text-align: center">Activity05 Catalog of Flowers</h1>
+        <!-- TO DO -->
+        <h1 style="text-align: center">Men's Clothing</h1>
       </section>
-      <!-- image -->
 
       <div class="album py-5 bg-body-tertiary">
         <div class="container">
@@ -327,14 +260,21 @@
             <div class="col">
               <div class="card shadow-sm">
                 <!-- image -->
-                <img src="./images/sunflower.jpg" alt="sunflower" />
+                <div class="wrap">
+                  <!-- 
+                  width controls size of image
+                  margin moves centre of image 
+                  -->
+                  <img
+                    src="./images/mens/hawaiian_shirt.jpg"
+                    alt="hawaiian_shirt"
+                    width="550px"
+                    style="margin: -80px 0px 0px -70px"
+                  />
+                </div>
 
                 <div class="card-body">
-                  <p class="card-text">
-                    The common <strong>sunflower</strong> (Helianthus annuus) is
-                    a large annual forb of the genus Helianthus. It is commonly
-                    grown as a crop for its edible oily seeds
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -360,16 +300,17 @@
             <div class="col">
               <div class="card shadow-sm">
                 <!-- image -->
-                <img src="./images/bluebell.jpg" alt="bluebell" />
+                <div class="wrap">
+                  <img
+                    src="./images/mens/blue_buttonup.jpg"
+                    alt="business_casual"
+                    width="500px"
+                    style="margin: 0px 0px 0px -45px"
+                  />
+                </div>
 
                 <div class="card-body">
-                  <p class="card-text">
-                    <strong>Hyacinthoides</strong> is classified in the
-                    subfamily Scilloideae (now part of the family Asparagaceae,
-                    but formerly treated as a separate family, called
-                    Hyacinthaceae), alongside genera such as Scilla and
-                    Ornithogalum.
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -396,16 +337,17 @@
               <div class="card shadow-sm">
                 <!-- image -->
 
-                <img src="./images/cherryblossom.jpg" alt="cherryblossom" />
+                <div class="wrap">
+                  <img
+                    src="./images/mens/denim.jpg"
+                    alt="denim"
+                    width="500px"
+                    style="margin: 0px 0px 0px -45px"
+                  />
+                </div>
 
                 <div class="card-body">
-                  <p class="card-text">
-                    The <strong>cherry blossom</strong>, or
-                    <strong>sakura</strong>, is the flower of trees in Prunus
-                    subgenus Cerasus. Sakura usually refers to flowers of
-                    ornamental cherry trees, such as cultivars of Prunus
-                    serrulata, not trees grown for their fruit.
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -432,18 +374,17 @@
             <div class="col">
               <div class="card shadow-sm">
                 <!-- image -->
-                <img src="./images/daisy.jpg" alt="daisy" />
+                <div class="wrap">
+                  <img
+                    src="./images/mens/long_winter_coat.jpg"
+                    alt="long_winter_coat"
+                    width="130%"
+                    style="margin: -275px 0px 0px -60px"
+                  />
+                </div>
+
                 <div class="card-body">
-                  <p class="card-text">
-                    Leucanthemum vulgare, commonly known as the
-                    <strong>
-                      ox-eye daisy, oxeye daisy, dog daisy, marguerite
-                    </strong>
-                    (French: Marguerite commune, "common marguerite") and other
-                    common names,[2] is a widespread flowering plant native to
-                    Europe and the temperate regions of Asia, and an introduced
-                    plant to North America, Australia and New Zealand.
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -469,13 +410,16 @@
             <div class="col">
               <div class="card shadow-sm">
                 <!-- image -->
-                <img src="./images/rose.jpg" alt="rose" />
+                <div class="wrap">
+                  <img
+                    src="./images/mens/outdoorjacket.jpg"
+                    alt="outdoorjacket"
+                    width="130%"
+                    style="margin: -275px 0px 0px 0px"
+                  />
+                </div>
                 <div class="card-body">
-                  <p class="card-text">
-                    A <strong>rose</strong> is either a woody perennial
-                    flowering plant of the genus Rosa, in the family Rosaceae,
-                    or the flower it bears.
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -501,15 +445,16 @@
             <div class="col">
               <div class="card shadow-sm">
                 <!-- image -->
-                <img src="./images/tulip.jpg" alt="tulip" />
+                <div class="wrap">
+                  <img
+                    src="./images/mens/turtleneck.jpg"
+                    alt="turtleneck"
+                    width="100%"
+                    style="margin: 0px 0px 0px 0px"
+                  />
+                </div>
                 <div class="card-body">
-                  <p class="card-text">
-                    <strong>Tulips (Tulipa)</strong> are a genus of
-                    spring-blooming perennial herbaceous bulbiferous geophytes
-                    (having bulbs as storage organs). The flowers are usually
-                    large, showy and brightly coloured, generally red, pink,
-                    yellow, or white (usually in warm colours).
-                  </p>
+                  <p class="card-text">TO DO</p>
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
@@ -544,6 +489,6 @@
         </p>
       </div>
     </footer>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
   </body>
 </html>
