@@ -25,6 +25,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="styles.css" />
+
     <title>EaZhiClothes Homepage</title>
 
     <link
@@ -239,12 +241,27 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Catalog</a>
-                  <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="catalog_women.html"> Women's </a></li>
-                  <li><a class="dropdown-item" href="catalog_men.html"> Men's </a></li>
-                  <li><a class="dropdown-item" href="catalog_kids.html"> Kid's </a></li>
-                  </ul>
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Catalog</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="catalog_women.html">
+                      Women's
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="catalog_men.html"> Men's </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="catalog_kids.html">
+                      Kid's
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Us</a>
@@ -255,21 +272,24 @@
       </nav>
     </header>
 
-    <!-- padding for whole page here -->
-    <main style="padding-left: 50px; padding-right: 50px; padding-top:59.5px">
+    <!-- padding for top of page here -->
+    <main style="padding-top: 59.5px">
+      <div class="container">
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img 
-            src="./images/mofuku2_woman.png" 
-            class="bd-placeholder-img rounded-circle"
-            width="140px" 
-            height="140px" 
-            style="object-fit: cover; object-position: top;"
-            focusable="false">
+            <img
+              src="./images/index/mofuku2_woman.png"
+              class="bd-placeholder-img rounded-circle"
+              width="140px"
+              height="140px"
+              style="object-fit: cover; object-position: top"
+              focusable="false"
+            />
             <h2 class="fw-normal">Womens'</h2>
             <p>
-              Shop new hits in womens' fashion, handpicked by the staff of EaZhiClothes!
+              Shop new hits in womens' fashion, handpicked by the staff of
+              EaZhiClothes!
             </p>
             <p>
               <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -277,16 +297,18 @@
             </p>
           </div>
           <div class="col-lg-4">
-            <img 
-            src="./images/fashion_windbreaker_man.png" 
-            class="bd-placeholder-img rounded-circle"
-            width="140px" 
-            height="140px" 
-            style="object-fit: cover; object-position: top;"
-            focusable="false">
+            <img
+              src="./images/index/fashion_windbreaker_man.png"
+              class="bd-placeholder-img rounded-circle"
+              width="140px"
+              height="140px"
+              style="object-fit: cover; object-position: top"
+              focusable="false"
+            />
             <h2 class="fw-normal">Mens</h2>
             <p>
-              Browse our selection of clothes where functionality meets <em>fashion</em>!
+              Browse our selection of clothes where functionality meets
+              <em>fashion</em>!
             </p>
             <p>
               <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -295,16 +317,18 @@
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img 
-            src="./images/fashion_bukabuka.png" 
-            class="bd-placeholder-img rounded-circle"
-            width="140px" 
-            height="140px" 
-            style="object-fit: cover; object-position: top;"
-            focusable="false">
+            <img
+              src="./images/index/fashion_bukabuka.png"
+              class="bd-placeholder-img rounded-circle"
+              width="140px"
+              height="140px"
+              style="object-fit: cover; object-position: top"
+              focusable="false"
+            />
             <h2 class="fw-normal">Kids</h2>
             <p>
-              Let's not forget our future! Your children can be the coolest kids on the playground!
+              Let's not forget our future! Your children can be the coolest kids
+              on the playground!
             </p>
             <p>
               <a class="btn btn-secondary" href="#">View details &raquo;</a>
@@ -313,7 +337,6 @@
           <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
-
 
         <!-- START THE FEATURETTES -->
 
@@ -326,28 +349,26 @@
               <span class="text-body-secondary">We don’t cut corners.</span>
             </h2>
             <p class="lead">
-              Every detail is crafted with precision, ensuring durability and long-lasting performance. 
-              Our commitment to excellence means that from start to finish, we prioritize quality over shortcuts. 
-              When you choose our products, you’re investing in something built to stand the test of time.
+              Every detail is crafted with precision, ensuring durability and
+              long-lasting performance. Our commitment to excellence means that
+              from start to finish, we prioritize quality over shortcuts. When
+              you choose our products, you’re investing in something built to
+              stand the test of time.
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <div class="landingImg">
+              <!-- 
+              use margin to centre image. 
+              use width to resize image
+              -->
+              <img
+                src="./images/index/quality.jpg"
+                alt="quality"
+                width="110%"
+                style="margin: 0px 0px 0px -25px"
+              />
+            </div>
           </div>
         </div>
 
@@ -360,30 +381,26 @@
               <span class="text-body-secondary">Just for you.</span>
             </h2>
             <p class="lead">
-              Exceptional value without compromising on quality. 
-              We believe everyone deserves access to premium products, 
-              which is why we've crafted something that fits your budget 
-              without sacrificing the features you need. Designed with you in mind, 
-              because affordability shouldn’t mean settling for less.
+              Exceptional value without compromising on quality. We believe
+              everyone deserves access to premium products, which is why we've
+              crafted something that fits your budget without sacrificing the
+              features you need. Designed with you in mind, because
+              affordability shouldn’t mean settling for less.
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <div class="landingImg">
+              <!-- 
+              use margin to centre image. 
+              use width to resize image
+              -->
+              <img
+                src="./images/index/designers.jpg"
+                alt="designers"
+                width="150%"
+                style="margin: 0px 0px 0px -90px"
+              />
+            </div>
           </div>
         </div>
 
@@ -396,29 +413,27 @@
               <span class="text-body-secondary">Styled just for you.</span>
             </h2>
             <p class="lead">
-              Experience fashion that’s both affordable and impeccable. 
-              We craft each piece with care, ensuring high-quality materials and precise design. 
-              Our collections are thoughtfully curated to offer you stylish options that fit your unique taste and budget. 
-              Discover clothes that elevate your look and keep you looking fabulous every day.
+              Experience fashion that’s both affordable and impeccable. We craft
+              each piece with care, ensuring high-quality materials and precise
+              design. Our collections are thoughtfully curated to offer you
+              stylish options that fit your unique taste and budget. Discover
+              clothes that elevate your look and keep you looking fabulous every
+              day.
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" />
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <div class="landingImg">
+              <!-- 
+              use margin to centre image. 
+              use width to resize image
+              -->
+              <img
+                src="./images/index/sewn to last.jpg"
+                alt="sewn to last"
+                width="100%"
+                style="margin: 0px 0px 0px 0px"
+              />
+            </div>
           </div>
         </div>
 
@@ -431,12 +446,9 @@
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>
-          &copy; 2017–2024 EaZhiClothes, Inc. &middot;
-          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-        </p>
+        <p>&copy; 2017–2024 EaZhiClothes, Inc. &middot;</p>
       </footer>
     </main>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
   </body>
 </html>
